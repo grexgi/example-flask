@@ -8,4 +8,5 @@ env.bak/
 venv.bak/
 
 # Model
-model/
+# model/
+# model/EfficientNetB3_iterasike3-36.weights.h5
