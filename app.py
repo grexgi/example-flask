@@ -121,5 +121,9 @@ def predict_vegetation_class():
     else:
         return jsonify({"error": "File type not allowed"}), 400
 
+@app.route('/', methods=['GET'])
+def home():
+    return jsonify({"welcome": "Welcome to crop disease and ndvi prediction model"}),200
+
 if __name__ == '__main__':
     app.run(debug=True)
